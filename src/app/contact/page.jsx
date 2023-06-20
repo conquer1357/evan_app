@@ -1,6 +1,9 @@
 import React from 'react'
 import styles from './page.module.css'
 import Image from "next/image";
+import Button from "@/components/Button/Button"
+
+
 
 export default function contact() {
   return (
@@ -24,7 +27,7 @@ export default function contact() {
             cols="30"
             rows="10"
           ></textarea>
-          <button url="#"  content="Send"/>
+          <Button url="#"  text="Send"/>
         </form>
       </div>
     </div>
